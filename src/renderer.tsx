@@ -34,4 +34,5 @@ import { App } from '@/App'
 
 const dom = document.querySelector('#app')
 const root = createRoot(dom as HTMLElement)
+
 root.render(<App />)
